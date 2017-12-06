@@ -1,0 +1,7 @@
+<!-- "pages/aboutme/aboutme",.wxml-->
+<view class="about">
+  <view>{{info.title}}</view>
+  <view>{{info.cTime}}</view>
+  <view><image src='{{info.img}}' class='in-img' background-size='cover' model='scaleFill'></image></view>
+  <view>{{info.content}}</view>
+</view>
